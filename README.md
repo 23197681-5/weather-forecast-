@@ -165,7 +165,7 @@ Outrossim essas séries são muitas vezes infinitas e a previsão deve basear-se
 análise estatística das evoluções anteriores por questões como custo computacional.
 
 
-```
+
 4.2.Validação do modelo
 ```
 ```
@@ -176,7 +176,7 @@ dados atuais.
 A métrica de qualidade do modelo de predição foi feita em cima dos dados de
 teste, para cada dado predito foi calculado o MRE e um contador foi implementado
 para calcular o total de itens
-```
+```python
 1 end = dadosY.shape[ 0 ]
 2 window = 10
 3 totalItems, mre, x = 0 , 0 , 0
@@ -213,7 +213,7 @@ para calcular o total de itens
 34
 35 **print** "MMRE(Mean Magnitude of Relative Error): "+
 36 str(mre/totalItems)
-
+```
 
 ## 5. Resultados
 
@@ -290,8 +290,6 @@ GEBIOMET - Grupo de Estudos em Biometeorologia. .Disponível em:
 <http://www.gebiomet.com.br/downloads.php>. Acesso em: 6/12/2017.
 
 SILVA, G. C. Factors that Impact the Cloud Portability of Legacy Web Ap-
-plications. , 2016. Disponível em: <http://etheses.whiterose.ac.uk/16428/8/Thesis
-
-- Corrections for deposit.pdf>. Acesso em: 7/12/2017.
+plications. , 2016. Disponível em: <http://etheses.whiterose.ac.uk/16428/8/Thesis-Corrections for deposit.pdf>. Acesso em: 7/12/2017.
 
 
