@@ -1,5 +1,5 @@
 # weather-prevision
-Weather prevision of a local city, Dois Vizinhos; state of Paraná
+Weather forecast of a local city, Dois Vizinhos; state of Paraná
 
 # Aplicando Predição de Série Temporal Em Dados de
 
